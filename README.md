@@ -144,3 +144,4 @@ On Linux instances, connect to your instance and manually resize your partitions
 Extend the file system on the disk or the partition to use the added space. If you grew a partition on your disk, specify the partition. If your disk does not have a partition table, specify only the disk ID. sudo resize2fs /dev/[DISK_ID][PARTITION_NUMBER] where [DISK_ID] is the device name and [PARTITION_NUMBER] is the partition number for the device where you are resizing the file system.
 References:
 https://cloud.google.com/compute/docs/disks/add-persistent-disk
+
